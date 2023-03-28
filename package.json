@@ -4,6 +4,7 @@
   "description": "Gympass Style App.",
   "main": "index.js",
   "scripts": {
+    "dev": "tsx --watch src/server.ts",
     "build": "npx tsc -p ./tsconfig.build.json",
     "lint:fix": "eslint src/**/*.ts --fix",
     "prepare": "husky install"
