@@ -26,5 +26,8 @@
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "fastify": "^4.15.0"
   }
 }
