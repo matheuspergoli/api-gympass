@@ -9,4 +9,4 @@ case "$OSTYPE" in
     exec >/dev/console 2>&1;;
 esac
 
-npx lint-staged
+npx --no -- commitlint --edit ${1}
