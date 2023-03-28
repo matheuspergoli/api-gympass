@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Gympass Style App.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "npx tsc -p ./tsconfig.build.json"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^18.15.10",
     "prettier": "^2.8.7",
     "typescript": "^5.0.2"
   }
